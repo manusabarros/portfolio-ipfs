@@ -15,12 +15,8 @@ const Work = forwardRef((props: any, ref: any) => {
                                 FRONTEND DEVELOPER -{" "}
                                 <a href="https://ortex.com" target="_blank" rel="noopener noreferrer">
                                     ORTEX
-                                    <span>
-                                        <Image src="/assets/redirect-orange.png" alt="redirect" layout="fill" priority />
-                                    </span>
-                                    <span>
-                                        <Image src="/assets/redirect-darkgrey.png" alt="redirect" layout="fill" priority />
-                                    </span>
+                                    <img src="/assets/redirect-orange.png" alt="redirect" />
+                                    <img src="/assets/redirect-darkgrey.png" alt="redirect" />
                                 </a>
                             </p>
                             <p className={styles.description}>
@@ -74,12 +70,8 @@ const Work = forwardRef((props: any, ref: any) => {
                                 FRONTEND DEVELOPER -{" "}
                                 <a href="https://bombieri.com.ar" target="_blank" rel="noopener noreferrer">
                                     BOMBIERI
-                                    <span>
-                                        <Image src="/assets/redirect-orange.png" alt="redirect" layout="fill" priority />
-                                    </span>
-                                    <span>
-                                        <Image src="/assets/redirect-darkgrey.png" alt="redirect" layout="fill" priority />
-                                    </span>
+                                    <img src="/assets/redirect-orange.png" alt="redirect" />
+                                    <img src="/assets/redirect-darkgrey.png" alt="redirect" />
                                 </a>
                             </p>
                             <p className={styles.description}>

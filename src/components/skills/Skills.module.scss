@@ -31,7 +31,7 @@
                     align-items: center;
                     justify-content: center;
                     background-color: $black;
-                    > div {
+                    img {
                         width: 15vmin;
                         height: 15vmin;
                         position: relative;
@@ -39,7 +39,7 @@
                     @media screen and (min-width: $tablet-large-width) {
                         width: 20vmin;
                         height: 20vmin;
-                        > div {
+                        img {
                             width: 10vmin;
                             height: 10vmin;
                             position: relative;

@@ -64,7 +64,7 @@
                     white-space: nowrap;
                     position: relative;
                     font-size: 3.4vmin;
-                    > span {
+                    img {
                         position: relative;
                         display: inline-block;
                         margin-right: 2vmin;
@@ -137,7 +137,7 @@
                 }
                 a:hover {
                     color: $orange;
-                    > span {
+                    img {
                         &:first-of-type {
                             visibility: hidden;
                         }

@@ -4,6 +4,7 @@
     "react/display-name": "off",
     "react-hooks/exhaustive-deps": "off",
     "@next/next/link-passhref": "off",
-    "@next/next/next-script-for-ga": "off"
+    "@next/next/next-script-for-ga": "off",
+    "@next/next/no-img-element": "off"
   }
 }

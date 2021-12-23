@@ -35,9 +35,7 @@ const Header = ({ onGoTo, color: backgroundColor }: any) => {
     return (
         <header className={styles.Header} style={{ backgroundColor }}>
             <div className={styles.links}>
-                <div className={styles.image}>
-                    <Image src="/assets/menu.svg" alt="menu" onClick={toggleMenu} layout="fill" priority />
-                </div>
+                <img src="/assets/menu.svg" alt="menu" onClick={toggleMenu} className={styles.image} />
                 <div className={styles.menu}>
                     <div ref={menuRef}>
                         {links.map(link => (

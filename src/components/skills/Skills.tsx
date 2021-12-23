@@ -14,9 +14,7 @@ const Skills = forwardRef((props: any, ref: any) => {
                 <div>
                     <div>
                         <div className={styles.image}>
-                            <div>
-                                <Image src="/assets/computer.svg" alt="computer" layout="fill" priority />
-                            </div>
+                            <img src="/assets/computer.svg" alt="computer" />
                         </div>
                         <p>FRONTEND</p>
                         <div className={styles.skills}>
@@ -27,9 +25,7 @@ const Skills = forwardRef((props: any, ref: any) => {
                     </div>
                     <div>
                         <div className={styles.image}>
-                            <div>
-                                <Image src="/assets/server.svg" alt="server" layout="fill" priority />
-                            </div>
+                            <img src="/assets/server.svg" alt="server" />
                         </div>
                         <p>BACKEND</p>
                         <div className={styles.skills}>
@@ -40,9 +36,7 @@ const Skills = forwardRef((props: any, ref: any) => {
                     </div>
                     <div>
                         <div className={styles.image}>
-                            <div>
-                                <Image src="/assets/cloud.svg" alt="cloud" layout="fill" priority />
-                            </div>
+                            <img src="/assets/cloud.svg" alt="cloud" />
                         </div>
                         <p>OTHERS</p>
                         <div className={styles.skills}>

@@ -20,7 +20,7 @@ const Home = forwardRef((props: any, ref: any) => {
                 </div>
                 <div className={styles.gif}>
                     <div>
-                        <Image src="/assets/coffee.gif" alt="coffee-gif" layout="fill" priority />
+                        <img src="/assets/coffee.gif" alt="coffee-gif" />
                     </div>
                 </div>
             </div>
